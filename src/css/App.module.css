@@ -1,0 +1,46 @@
+.title {
+	background-color: #fafafa;
+	border-radius: 12px;
+	padding: 15px 20px;
+	margin-bottom: 16px;
+	max-width: 500px;
+	filter: drop-shadow(3px 6px 6px rgba(0, 0, 0, 0.308));
+}
+
+img {
+	image-rendering: auto;
+	max-width: 100%;
+	padding: 8px 0;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 12px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+.card {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
